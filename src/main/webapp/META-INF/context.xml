@@ -36,12 +36,10 @@
             username="sa" password="" driverClassName="org.hsqldb.jdbcDriver"
             url="jdbc:hsqldb:${catalina.base}/OPENKM"/>
   -->
-  <!--
   <Resource name="jdbc/OpenKMDS" auth="Container" type="javax.sql.DataSource"
             maxActive="100" maxIdle="30" maxWait="10000"
             username="openkm" password="openkm" driverClassName="com.mysql.jdbc.Driver"
-            url="jdbc:mysql://localhost:3306/okm_app?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF8"/>
-  -->
+            url="jdbc:mysql://localhost:63115/okmdb?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF8"/>
   <!--
   <Resource name="jdbc/OpenKMDS" auth="Container" type="javax.sql.DataSource"
             maxActive="100" maxIdle="30" maxWait="10000"
